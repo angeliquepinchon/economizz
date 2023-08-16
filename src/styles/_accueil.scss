@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  padding: 1.1rem;
+  background: #00897b;
+  color: #f5f7f8;
+  justify-content: space-between;
+
+  h1 {
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+  }
+
+  a {
+    color: $white;
+  }
+}
